@@ -19,3 +19,9 @@
 [submodule "Shooter IO/Assets/_Submodules/simple-photon2-networkmanager"]
 	path = Shooter IO/Assets/_Submodules/simple-photon2-networkmanager
 	url = https://github.com/insthync/simple-photon2-networkmanager.git
+[submodule "Shooter IO/Assets/_Submodules/photon-shooter-io-core"]
+	path = Shooter IO/Assets/_Submodules/photon-shooter-io-core
+	url = https://github.com/insthync/photon-shooter-io-core.git
+[submodule "Shooter IO/Assets/_Submodules/shooter-io-playfab-client-demo"]
+	path = Shooter IO/Assets/_Submodules/shooter-io-playfab-client-demo
+	url = https://github.com/insthync/shooter-io-playfab-client-demo.git
