@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/_Game/Scenes/Home.unity
+    guid: bd9caa164d7acf645ae0682ee38b25ab
+  - enabled: 1
+    path: Assets/_Game/Scenes/Battle.unity
+    guid: eb1e4e6ca6d605148b58d3ecfa166770
+  - enabled: 1
+    path: Assets/_Game/Scenes/OldBattle.unity
+    guid: 4867614086279c34c9851fe84584f1c6
+  - enabled: 1
+    path: Assets/_Game/BattleRoyale/Scenes/BattleRoyale.unity
+    guid: 544be37376f7bc04fbd1f936db394efa
   m_configObjects: {}
