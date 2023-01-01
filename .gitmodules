@@ -16,3 +16,6 @@
 [submodule "Shooter IO/Assets/_Submodules/UnityEditorUtils"]
 	path = Shooter IO/Assets/_Submodules/UnityEditorUtils
 	url = https://github.com/insthync/UnityEditorUtils.git
+[submodule "Shooter IO/Assets/_Submodules/simple-photon2-networkmanager"]
+	path = Shooter IO/Assets/_Submodules/simple-photon2-networkmanager
+	url = https://github.com/insthync/simple-photon2-networkmanager.git
