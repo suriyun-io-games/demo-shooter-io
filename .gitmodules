@@ -1,0 +1,18 @@
+[submodule "Shooter IO/Assets/_Submodules/unity-simple-character-parts"]
+	path = Shooter IO/Assets/_Submodules/unity-simple-character-parts
+	url = https://github.com/insthync/unity-simple-character-parts.git
+[submodule "Shooter IO/Assets/_Submodules/unity-simple-monetization"]
+	path = Shooter IO/Assets/_Submodules/unity-simple-monetization
+	url = https://github.com/insthync/unity-simple-monetization.git
+[submodule "Shooter IO/Assets/_Submodules/unity-camera-and-input"]
+	path = Shooter IO/Assets/_Submodules/unity-camera-and-input
+	url = https://github.com/insthync/unity-camera-and-input.git
+[submodule "Shooter IO/Assets/_Submodules/unity-audio-manager"]
+	path = Shooter IO/Assets/_Submodules/unity-audio-manager
+	url = https://github.com/insthync/unity-audio-manager.git
+[submodule "Shooter IO/Assets/_Submodules/UnityPrimitiveData"]
+	path = Shooter IO/Assets/_Submodules/UnityPrimitiveData
+	url = https://github.com/insthync/UnityPrimitiveData.git
+[submodule "Shooter IO/Assets/_Submodules/UnityEditorUtils"]
+	path = Shooter IO/Assets/_Submodules/UnityEditorUtils
+	url = https://github.com/insthync/UnityEditorUtils.git
