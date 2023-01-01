@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f908a4d17789c1f4facca83bca10d01b, type: 3}
+  m_Name: DeathMatchNetworkGameRule
+  m_EditorClassIdentifier: 
+  title: Death Match
+  description: Anyone who kill reach limit will win
+  defaultBotCount: 7
+  botCount: 0
+  defaultMatchTime: 180
+  matchTime: 0
+  defaultMatchKill: 20
+  matchKill: 0
+  defaultMatchScore: 0
+  matchScore: 0
+  uiGameplayPrefab: {fileID: 114192281680419410, guid: 368cde4469e5fc2408988f4edcb5c722,
+    type: 2}
+  overrideCharacterPrefab: {fileID: 0}
+  overrideBotPrefab: {fileID: 0}
+  startWeapons: []
+  endMatchCountDown: 10
+  rewards:
+  - rewards:
+    - currencies:
+      - id: GOLD
+        amount: 3000
+      items: []
+      randomWeight: 100
+  - rewards:
+    - currencies:
+      - id: GOLD
+        amount: 2000
+      items: []
+      randomWeight: 100
+  - rewards:
+    - currencies:
+      - id: GOLD
+        amount: 1000
+      items: []
+      randomWeight: 100

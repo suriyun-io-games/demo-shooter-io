@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f13a5b8d7626aa4bbcbb046e9b81280, type: 3}
+  m_Name: TeamDeathMatchNetworkGameRule
+  m_EditorClassIdentifier: 
+  title: Team Death Match
+  description: The team which kill more will win
+  defaultBotCount: 7
+  botCount: 7
+  defaultMatchTime: 180
+  matchTime: 180
+  defaultMatchKill: 40
+  matchKill: 40
+  defaultMatchScore: 0
+  matchScore: 0
+  uiGameplayPrefab: {fileID: 114259221006109792, guid: 7cf5d6e95a8ab7e4caae5c921f36b317,
+    type: 2}
+  overrideCharacterPrefab: {fileID: 0}
+  overrideBotPrefab: {fileID: 0}
+  startWeapons: []
+  endMatchCountDown: 10
+  rewards: []

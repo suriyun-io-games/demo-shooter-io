@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1661564095576188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4239646007483080}
+  - component: {fileID: 114005792904717730}
+  - component: {fileID: 114746067804190136}
+  m_Layer: 0
+  m_Name: GameInstance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4239646007483080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661564095576188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114005792904717730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661564095576188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62586585004f62d4e8ae7cc6a577ef60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maps:
+  - mapName: Battle
+    scene:
+      sceneAsset: {fileID: 102900000, guid: eb1e4e6ca6d605148b58d3ecfa166770, type: 3}
+      sceneName: Battle
+    previewImage: {fileID: 21300000, guid: 772dad571d0052e41a70f6287c705d87, type: 3}
+    availableGameRules:
+    - {fileID: 11400000, guid: 8252b738eeab41c488592c66efd0564e, type: 2}
+    - {fileID: 11400000, guid: 8a508bd358197df43a08e6a6e92b9532, type: 2}
+    - {fileID: 11400000, guid: c4903d5db157a914f945e3662788b79d, type: 2}
+  - mapName: OldBattle
+    scene:
+      sceneAsset: {fileID: 102900000, guid: a5cc9d207f9bf274bb65271eef7d334d, type: 3}
+      sceneName: OldBattle
+    previewImage: {fileID: 21300000, guid: 42d8e3e193236694392dd7139e4cac0c, type: 3}
+    availableGameRules:
+    - {fileID: 11400000, guid: 8252b738eeab41c488592c66efd0564e, type: 2}
+    - {fileID: 11400000, guid: 8a508bd358197df43a08e6a6e92b9532, type: 2}
+    - {fileID: 11400000, guid: c4903d5db157a914f945e3662788b79d, type: 2}
+  - mapName: BattleRoyale
+    scene:
+      sceneAsset: {fileID: 102900000, guid: 544be37376f7bc04fbd1f936db394efa, type: 3}
+      sceneName: BattleRoyale
+    previewImage: {fileID: 21300000, guid: ca834b49572e8cc429017ced8b475ca4, type: 3}
+    availableGameRules:
+    - {fileID: 11400000, guid: 0234e85440771e949ad2dac54f983d14, type: 2}
+  characterPrefab: {fileID: 114014327527662406, guid: dab3adc2b6eb6c54db243aaa119f47ca,
+    type: 3}
+  botPrefab: {fileID: 114440289766304596, guid: 055e3da192a16564099d418785c2b163,
+    type: 3}
+  characters:
+  - {fileID: 11400000, guid: 31e4a298daa5e434ba338b931956b6d4, type: 2}
+  - {fileID: 11400000, guid: fa875a1ef2e24814caed7c65e86dee63, type: 2}
+  - {fileID: 11400000, guid: 44ed10ab796f7e5458c2f3a0deb075da, type: 2}
+  heads:
+  - {fileID: 11400000, guid: d587d1b65f6ceeb4fa1ba698e81c8dac, type: 2}
+  - {fileID: 11400000, guid: 58beca05defaefe4a8a656329d41577b, type: 2}
+  - {fileID: 11400000, guid: 4fd1852aeecc67842b2b25f50d9c2855, type: 2}
+  - {fileID: 11400000, guid: a81843fe01a91244c9d95045a1a3ccf5, type: 2}
+  weapons:
+  - {fileID: 11400000, guid: 78f238f493f290d488296be9b17619d9, type: 2}
+  - {fileID: 11400000, guid: 3c1f0253b3ec82641865410acbcfe34c, type: 2}
+  - {fileID: 11400000, guid: 3e103333b26270046b79b437f663d538, type: 2}
+  - {fileID: 11400000, guid: 9aace77fd1b62934ea3f0cdd988b9e7e, type: 2}
+  - {fileID: 11400000, guid: 703649514e3e04546a21e002bddac98c, type: 2}
+  customEquipments: []
+  bots:
+  - name: Josh
+    headDataIndex: 1
+    characterDataIndex: 0
+    weaponDataIndexes: 000000000100000001000000
+  - name: Mark
+    headDataIndex: 0
+    characterDataIndex: 1
+    weaponDataIndexes: 000000000400000003000000
+  - name: Logan
+    headDataIndex: -1
+    characterDataIndex: -1
+    weaponDataIndexes: 000000000300000001000000
+  characterLayer: 8
+  showJoystickInEditor: 0
+  watchAdsRespawnPlacement: respawnPlacement
+--- !u!114 &114746067804190136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661564095576188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381532b762211664d80ffd2a4ade737a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  androidGameId: 1796135
+  iosGameId: 1796136
+  testMode: 1
+  adsOverrideActions: []
+  products:
+  - {fileID: 11400000, guid: 71b081bc5c9b0ac4092991c23559bcf4, type: 2}
+  currencies:
+  - id: GO
+    startAmount: 1000
+    name: Gold
+    symbol: G.
+  rewardVideoPlacement: rewardedVideo
+  adsRewards:
+  - currencies:
+    - id: GOLD
+      amount: 100
+    items: []
+    randomWeight: 2
+  save: {fileID: 0}

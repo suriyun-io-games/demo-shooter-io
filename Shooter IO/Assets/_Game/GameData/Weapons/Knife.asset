@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cd3b80ad63e90a428286b20a33fb278, type: 3}
+  m_Name: Knife
+  m_EditorClassIdentifier: 
+  iconTexture: {fileID: 2800000, guid: d21451ab25959e64988fc1b5408135ff, type: 3}
+  previewTexture: {fileID: 0}
+  title: Knife
+  description: 
+  price:
+    id: 
+    amount: 0
+  canBuyOnlyOnce: 0
+  isLock: 0
+  stats:
+    addMaxHp: 0
+    addMaxArmor: 0
+    addMoveSpeed: 0
+    addWeaponDamageRate: 0
+    addArmorReduceDamage: 0
+    addExpRate: 0
+    addScoreRate: 0
+    addHpRecoveryRate: 0
+    addArmorRecoveryRate: 0
+    addDamageRateLeechHp: 0
+  rightHandObject: {fileID: 1000012844503562, guid: ca20a47e212e0314abf8088be2a46e77,
+    type: 2}
+  leftHandObject: {fileID: 0}
+  shieldObject: {fileID: 0}
+  attackAnimations:
+  - actionId: 0
+    animationDuration: 0.8
+    launchDuration: 0.5
+  damagePrefab: {fileID: 114720440324133354, guid: f01063439f0dd3346a5e747e72b8f85f,
+    type: 2}
+  damage: 35
+  equipPosition: 2
+  reloadOneAmmoAtATime: 0
+  reloadDuration: 0
+  unlimitAmmo: 1
+  maxAmmo: 1
+  maxReserveAmmo: 1
+  spread: 1
+  staggerX: 0
+  staggerY: 0
+  attackFx:
+  - {fileID: 8300000, guid: 96e4ab491976bdf4cb2dc72b27720e3a, type: 3}
+  clipOutFx: {fileID: 0}
+  clipInFx: {fileID: 0}
+  emptyFx: {fileID: 0}

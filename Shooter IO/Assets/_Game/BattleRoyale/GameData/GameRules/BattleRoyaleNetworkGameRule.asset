@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f768538c49d01cb48b71e3ed30097f43, type: 3}
+  m_Name: BattleRoyaleNetworkGameRule
+  m_EditorClassIdentifier: 
+  title: Battle Royale
+  description: One player who has not been killed will win
+  defaultBotCount: 0
+  botCount: 0
+  defaultMatchTime: 0
+  matchTime: 0
+  defaultMatchKill: 0
+  matchKill: 0
+  defaultMatchScore: 0
+  matchScore: 0
+  uiGameplayPrefab: {fileID: 114271498160262832, guid: dc4c330067c0f9e4089cef5e570ffba9,
+    type: 2}
+  overrideCharacterPrefab: {fileID: 114014327527662406, guid: 1f15dc193198f6647953989613bdf95d,
+    type: 2}
+  overrideBotPrefab: {fileID: 114440289766304596, guid: f69e01208e5013f4185f01b13c72068f,
+    type: 2}
+  startWeapons:
+  - {fileID: 11400000, guid: 78f238f493f290d488296be9b17619d9, type: 2}
+  fillBots: 10
+  endMatchCountDown: 10
+  rewards:
+  - rewards:
+    - currencies:
+      - id: GOLD
+        amount: 3000
+      items: []
+      randomWeight: 100
+  - rewards:
+    - currencies:
+      - id: GOLD
+        amount: 2000
+      items: []
+      randomWeight: 100
+  - rewards:
+    - currencies:
+      - id: GOLD
+        amount: 1000
+      items: []
+      randomWeight: 100

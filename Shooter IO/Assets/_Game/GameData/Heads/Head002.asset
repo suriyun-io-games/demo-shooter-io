@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d890c9292674c94897254c3461516de, type: 3}
+  m_Name: Head002
+  m_EditorClassIdentifier: 
+  iconTexture: {fileID: 0}
+  previewTexture: {fileID: 0}
+  title: 
+  description: 
+  price:
+    id: 
+    amount: 0
+  canBuyOnlyOnce: 0
+  isLock: 0
+  addHp: 0
+  addAttack: 0
+  addDefend: 0
+  addMoveSpeed: 0
+  stats:
+    addHp: 0
+    addAttack: 0
+    addDefend: 0
+    addMoveSpeed: 0
+    addExpRate: 0
+    addScoreRate: 0
+    addHpRecoveryRate: 0
+    addDamageRateLeechHp: 0
+    addSpreadDamages: 0
+  modelObject: {fileID: 1084055430016020, guid: be77d7fd488a53440adac89793be7777,
+    type: 2}

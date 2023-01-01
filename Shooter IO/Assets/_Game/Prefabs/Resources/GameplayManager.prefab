@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1435331851135724}
+  m_IsPrefabParent: 1
+--- !u!1 &1435331851135724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4730597760888218}
+  - component: {fileID: 114749709587979546}
+  m_Layer: 0
+  m_Name: GameplayManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730597760888218
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1435331851135724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114749709587979546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1435331851135724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be19695c15a28504285129f55a96a9b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxLevel: 1000
+  exp:
+    minValue: 20
+    maxValue: 1023050
+    growth: 2
+  rewardExp:
+    minValue: 8
+    maxValue: 409220
+    growth: 2
+  rewardCurrencies:
+  - currencyId: GOLD
+    amount:
+      minValue: 8
+      maxValue: 409220
+      growth: 2
+  killScore:
+    minValue: 10
+    maxValue: 511525
+    growth: 2
+  baseMaxHp: 100
+  baseMaxArmor: 100
+  baseMoveSpeed: 30
+  baseWeaponDamageRate: 1
+  baseReduceDamageRate: 0
+  baseArmorReduceDamage: 0.3
+  maxWeaponDamageRate: 2
+  maxReduceDamageRate: 0.6
+  maxArmorReduceDamage: 0.6
+  addingStatPoint: 1
+  minAttackVaryRate: -0.07
+  maxAttackVaryRate: 0.07
+  availableAttributes:
+  - {fileID: 11400000, guid: d796f3c6de5d57c4a9bc406d1caa0d3d, type: 2}
+  - {fileID: 11400000, guid: d35de5c9d5db08840aa91764e894ac5e, type: 2}
+  - {fileID: 11400000, guid: 6051ab1e53811594490388f84b7bbeec, type: 2}
+  - {fileID: 11400000, guid: d5ca9b203ee6f594381ad2865b49e285, type: 2}
+  - {fileID: 11400000, guid: 90e31fa0dcd6de04485c2162d70caf04, type: 2}
+  - {fileID: 11400000, guid: a8d082cdb1f1b0945aac450bf9fc22dd, type: 2}
+  watchAdsRespawnAvailable: 2
+  respawnDuration: 5
+  invincibleDuration: 1.5
+  autoReload: 1
+  autoPickup: 0
+  respawnPickedupItems: 1
+  characterSpawnAreas:
+  - {fileID: 0}
+  powerUpSpawnAreas:
+  - {fileID: 0}
+  pickupSpawnAreas:
+  - {fileID: 0}
+  powerUps:
+  - powerUpPrefab: {fileID: 114080904933632780, guid: a0d26828e9b69ce47b4405b141f134f9,
+      type: 2}
+    amount: 20
+  - powerUpPrefab: {fileID: 114813495629112266, guid: e9d0d0d429a8ef343a7b0b5171874fb0,
+      type: 2}
+    amount: 20
+  pickups:
+  - pickupPrefab: {fileID: 114699066889544504, guid: 4c3537bcea036dd4a8c4e356923fab02,
+      type: 2}
+    amount: 5
+  - pickupPrefab: {fileID: 114891055892155078, guid: 435067a3b77a55044ba7d0b4b2a6a4da,
+      type: 2}
+    amount: 5
+  - pickupPrefab: {fileID: 114920152815375442, guid: 17972e25032b4c14683fb24502ffca75,
+      type: 2}
+    amount: 5
+  - pickupPrefab: {fileID: 114595484536870040, guid: ed1e1c2871754db4381d401b66807328,
+      type: 2}
+    amount: 5
