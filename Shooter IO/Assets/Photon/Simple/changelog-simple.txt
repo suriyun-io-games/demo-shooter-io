@@ -1,0 +1,19 @@
+
+Pun2 Simple Change Log
+Exit Games GmbH - www.photonengine.com - forum.photonengine.com
+
+FIX: Codegen for SyncVar interpolation had a misplaced bracket that could cause a cast error.
+FIX: Error from trying to use ByteArraySlice for anyone using 1.6 (old server stuff?). Now checks for SerializationProtocol.
+FIX: Disabled codegen by default.
+FIX: Made sure all settings are at defaults on git
+
+v2.26.1 (15. December 2020)
+FIX: Some race condition on initial loading in newer Unity versions resolved.
+FIX: Enum handling in SyncVars.
+
+v2.26 (09. December 2020)
+FIX: Moving the Photon folder would break code generation cleanup.
+
+
+v2.25 (30. November 2020)
+Initial addition of Simple to Pun2
